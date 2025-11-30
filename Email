@@ -1,0 +1,25 @@
+import java.util.*;
+
+class InvalidEmailException extends Exception {
+    public InvalidEmailException(String msg) {
+        super(msg);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter email: ");
+        String email = sc.nextLine();
+
+        try {
+            if (!email.contains("@")) {
+                throw new InvalidEmailException("Email must contain '@' symbol!");
+            }
+            System.out.println("Valid Email!");
+        } catch (InvalidEmailException e) {
+            System.out.println("Invalid Email: " + e.getMessage());
+        }
+    }
+}
