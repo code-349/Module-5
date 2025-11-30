@@ -7,5 +7,6 @@ integer
 File 
 <img width="811" height="190" alt="image" src="https://github.com/user-attachments/assets/438210e6-baff-4049-8a72-b78d5b0441d4" />
 Email 
-![Uploading image.png…]()
+<img width="766" height="156" alt="image" src="https://github.com/user-attachments/assets/2fc61609-a453-4928-ac01-17e32bbb4ebb" />
+
 
